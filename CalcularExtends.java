@@ -1,7 +1,6 @@
 public class CalcularExtends{
     public static class NumeroMaior extends Exception{}
 
-
     public static void contar(int n1,int n2) throws NumeroMaior{
         if (n1 > n2 ){
             throw new NumeroMaior();
